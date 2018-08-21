@@ -1,0 +1,83 @@
+body{
+     background-color: papayawhip;
+}
+.fname
+{
+    border: 0;
+    width:400px;
+   
+    background-color: papayawhip;
+     color: red;
+}
+.lname
+{
+    border: 0;
+    width:400px;
+    
+    background-color: papayawhip;
+    color: red;
+}
+.pnumber
+{
+    border: 0;
+    width:400px;
+    color: red;
+    background-color: papayawhip;
+}
+.e-mail
+{
+    border: 0;
+    width:400px;
+    color: red;
+    background-color: papayawhip;
+}
+.add
+{
+    border: 0;
+    width:400px;
+   color: red;
+    background-color: papayawhip;
+}
+.city1
+{
+    border: 0;
+    width:400px;
+    color: red;
+    background-color: papayawhip;
+}
+.radiob
+{
+    border: 0;
+    width:400px;
+}
+form
+{
+    padding-left: 27%;
+    padding-top: 1%;
+    
+}
+h2
+{
+    
+    padding-left: 29%;
+    
+    
+}
+.NameLabel
+{
+    font-family: sans-serif;
+    margin-left: 15%;
+}
+div{
+     font-family: sans-serif;
+    padding-bottom: 2%;
+}
+tr{
+    line-height: 30px;
+}
+.submit-class{
+    
+    width: 75px;
+    background-color: brown;
+    color: aliceblue;
+}
