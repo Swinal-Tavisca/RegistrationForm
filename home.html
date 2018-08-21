@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Form Validation</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <script type="text/javascript" src="homeScript.js"></script>
+    </head>
+    <body>
+        <h2> REGISTRATION FORM</h2>
+        <form name="myForm" action="success.html" onsubmit="return validate()">
+            <table>
+                <tr>
+                    <td> FIRST NAME</td>
+                    <td><input type="text" id="first-name" placeholder="Enter Name" oninput="firstName()" class="NameLabel"></td>
+                    <td><input type="text" id="fname-display" class="fname"></td>
+                
+                </tr>
+                <tr>
+                    <td>LAST NAME</td>
+                    <td><input type="text" id="last-name" placeholder="Last Name" oninput="lastName()" class="NameLabel"></td>
+                    <td><input type="text" id="lname-display" class="lname"></td>
+                </tr>
+                <tr>
+                    <td>PHONE NUMBER</td>
+                    <td><input type="text" maxlength="10" id="phone" placeholder="Phone Number" oninput="phoneNumber()" class="NameLabel"></td>
+                    <td><input type="text" id="phone-display" class="pnumber"></td>
+                </tr>
+                <tr>
+                    <td>E-MAIL</td>
+                    <td><input type="email" placeholder="Enter e-mail" id="mailId" oninput="email()" class="NameLabel"></td>
+                    <td><input type="text" id="email-display" class="e-mail"></td>
+                </tr>
+                <tr>
+                    <td>ADDRESS</td>
+                    <td><textarea name="message" rows="5" cols="15" placeholder="Enter Addrtess" id="address" oninput="Address()" class="NameLabel"></textarea></td>
+                    <td><input type="text" id="add-display" class="add"></td>
+                </tr>
+                <tr>
+                    <td>CITY</td>
+                    <td> <select name="city" placeholder="select" id="city" onchange="cityss()" class="NameLabel">
+                    <option value="Select">SELECT</option>
+                    <option value="Mumbai">MUMBAI</option>
+                    <option value="Pune">PUNE</option>
+                    <option value="Hyderabad">HYDERABAD</option>
+                    <option value="Banglore">BANGLORE</option>
+                    <option value="Delhi">DELHI</option>
+                    <option value="Other">OTHER</option>
+                </select></td>
+                    <td><input type="text" id="display" class="city1"></td>
+                </tr>
+                <tr>
+                    <td>GENDER</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"  class="NameLabel"/>MALE
+                        <input type="radio" name="gender" value="female" class="NameLabel"/>FEMALE
+                        <input type="radio" name="gender" value="other" class="NameLabel"/>OTHER
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center><input type="submit" value="SUBMIT" class="submit-class"></center></td>
+                </tr>
+            
+            </table>
+            
+            
+        </form>
+        
+    </body>
+</html>
